@@ -1,0 +1,89 @@
+1.mkdir pet
+cd pet 
+git init
+vi filename.c
+git add filename.c
+git commit -m "hi"
+git conflig --global user.name "name"
+git conflig --user.email "email"
+git log
+
+2. git branch fb
+git checkout fb
+git filename.c
+git add filename.c
+git commit - m "lo"
+git checkout master
+git merge fb
+git merge fb
+git log
+
+3.git checkout fb
+vi filename.c
+git stash 
+git checkout master 
+git stash apply
+git status
+git commit -m "chu"
+git log
+
+
+
+4.mkdir clone
+cd clone
+git clone "copy paste form Google"
+git log
+
+5. ls
+cd nas-tools
+git fetch origin
+git rebase origin
+git log
+
+6. cd .. 
+cd ..
+git checkout fb
+vi filename.c
+git add filename.c
+git commit -m "kuku"
+git checkout master
+git merge fb
+git merge fb
+git log
+
+7.git tag
+git tag v1.0
+git show v1.0
+
+
+
+
+
+
+8. branch " source branch"
+git checkout "sb"
+vi filename.c
+git add filename.c
+git commit -m "msg"
+vi filename.c
+git add filename.c
+git commit -m "msg"
+git log
+git checkout "master"
+git cherry -pick (copy paste commit I'd)
+vi filename.c
+git log
+
+9. git show (copy & paste commit I'd)
+
+10. git log  --author="name" --since "=date" --until = "date"
+
+11. git log  -5 ( commit no)
+
+
+
+12. git revert ( copy paste commit I'd)
+git status
+git add filename.c
+git commit -m "msg"
+git log
