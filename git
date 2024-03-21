@@ -87,3 +87,4 @@ git status
 git add filename.c
 git commit -m "msg"
 git log
+vinuta
