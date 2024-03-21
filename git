@@ -4,8 +4,8 @@ git init
 vi filename.c
 git add filename.c
 git commit -m "hi"
-git conflig --global user.name "name"
-git conflig --user.email "email"
+git config --global user.name "name"
+git config --user.email "email"
 git log
 
 2. git branch fb
