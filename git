@@ -1,3 +1,4 @@
+
 1.mkdir pet
 cd pet 
 git init
@@ -88,3 +89,4 @@ git add filename.c
 git commit -m "msg"
 git log
 vinuta
+anusha
